@@ -29,6 +29,8 @@ const TodoModal = ({ modalOpen, setModalOpen }) => {
             }));
             toast.success('Task Add Successfully');
             setModalOpen(false);
+            setTitle('');
+            setStatus('incomplete')
         } else {
             toast.error("Title shouldn't be empty");
         }
