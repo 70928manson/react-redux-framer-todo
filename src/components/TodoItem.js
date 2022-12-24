@@ -17,7 +17,6 @@ const TodoItem = ({ todo }) => {
     }
 
     const handleUpdate = () => {
-        console.log('Update');
         setUpdateModalOpen(true);
     }
 
