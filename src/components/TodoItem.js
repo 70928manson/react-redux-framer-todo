@@ -57,6 +57,7 @@ const TodoItem = ({ todo }) => {
                 type="update"
                 modalOpen={updateModalOpen} 
                 setModalOpen={setUpdateModalOpen}
+                todo={todo}
             />
         </>
     );
